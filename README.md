@@ -7,3 +7,33 @@ This repository includes the [classifier](https://github.com/mariusfaiss/InsectS
 Below is the abstract of the preprint describing the project:
 
 Insect population numbers and biodiversity have been rapidly declining with time, and monitoring these trends has become increasingly important for conservation measures to be effectively implemented. But monitoring methods are often invasive, time and resource intense, and prone to various biases. Many insect species produce characteristic sounds that can easily be detected and recorded without large cost or effort. Using deep learning methods, insect sounds from field recordings could be automatically detected and classified to monitor biodiversity and species distribution ranges. We implement this using recently published datasets of insect sounds (Orthoptera and Cicadidae) and machine learning methods and evaluate their potential for acoustic insect monitoring. We compare the performance of the conventional spectrogram-based audio representation against LEAF, a new adaptive and waveform-based frontend. LEAF achieved better classification performance than the mel-spectrogram frontend by adapting its feature extraction parameters during training. This result is encouraging for future implementations of deep learning technology for automatic insect sound recognition, especially as larger datasets become available.
+
+The IR files used for data augmentation are sourced from the [OpenAIR](https://www.openairlib.net) library.
+
+[Gill Heads Mine](https://www.openair.hosted.york.ac.uk/?page_id=494)
+
+44100_dales_site1_4way_mono.wav
+
+44100_dales_site2_4way_mono.wav
+
+44100_dales_site3_4way_mono.wav
+
+[Koli National Park - Winter](https://www.openair.hosted.york.ac.uk/?page_id=584)
+
+44100_koli_snow_site1_4way_mono.wav
+
+44100_koli_snow_site2_4way_mono.wav
+
+44100_koli_snow_site3_4way_mono.wav
+
+44100_koli_snow_site4_4way_mono.wav
+
+[Koli National Park - Summer](https://www.openair.hosted.york.ac.uk/?page_id=577)
+
+44100_koli_summer_site1_4way_mono.wav
+
+44100_koli_summer_site2_4way_mono.wav
+
+44100_koli_summer_site3_4way_mono.wav
+
+44100_koli_summer_site4_4way_mono.wav
